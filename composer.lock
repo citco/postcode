@@ -1,0 +1,32 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "9f13fa025c59e05427e8e07cee8f2c2b",
+    "content-hash": "c247fc91d6a12a51870776cee789f619",
+    "packages": [
+        {
+            "name": "braemoor/postcode",
+            "version": "5.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "http://www.braemoor.co.uk/software/downloads/postcode.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
