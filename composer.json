@@ -7,19 +7,6 @@
             "email": "ammontazer@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "braemoor/postcode",
-                "version": "5.0.0",
-                "dist": {
-                    "url": "http://www.braemoor.co.uk/software/downloads/postcode.zip",
-                    "type": "zip"
-                }
-            }
-        }
-    ],
     "require": {
         "php": ">=5.4.0",
         "braemoor/postcode": "5.*"
