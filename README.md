@@ -25,17 +25,43 @@ In your `composer.json`:
     }
 }
 ```
-After updating composer, add the MailerServiceProvider to the providers array in app/config/app.php
-```php
-    'Citco\Mailer\PostcodeServiceProvider',
+
+Add following lines to your composer.json:
+
+```json
+    "repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "braemoor/postcode",
+				"version": "5.0.0",
+				"dist": {
+					"url": "http://www.braemoor.co.uk/software/downloads/postcode.zip",
+					"type": "zip"
+				}
+			}
+		}
+	],
+	"autoload": {
+		"files": [
+			"vendor/braemoor/postcode/phppostcode.php"
+		]
+	}
 ```
 
 ## Basic Usage
 
+```php
+$parser = new Postcode('Sl1 EY1');
+
+$parser->isValid();//validates postcode
+
+$refactored_postcode = $parser->refactor();// sl1ey2 ===> SL1 EY2
+```
 
 ## License
 
-Citco Mailer is open source software licensed under [the MIT license](http://opensource.org/licenses/MIT)
+Citco Postcode is open source software licensed under [the MIT license](http://opensource.org/licenses/MIT)
 
 Copyright [Creative Investments Technologies](http://creativeinvestments.co.uk)
 
