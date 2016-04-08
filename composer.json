@@ -14,10 +14,7 @@
     "autoload": {
         "psr-0": {
             "Citco\\Mailer": "src/"
-        },
-        "files": [
-            "vendor/braemoor/postcode/phppostcode.php"
-        ]
+        }
     },
     "minimum-stability": "dev"
 }
