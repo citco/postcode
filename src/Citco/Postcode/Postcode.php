@@ -42,6 +42,6 @@ class Postcode {
             return false;
         }
 
-        return checkPostcode($toCheck);
+        return checkPostcode($postcode);
     }
 }
