@@ -11,8 +11,8 @@
         "php": ">=5.4.0"
     },
     "autoload": {
-        "psr-0": {
-            "Citco\\Postcode": "src/"
+        "psr-4": {
+            "Citco\\": "src/"
         },
         "files": [
             "src/phppostcode.php"

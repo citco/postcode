@@ -1,4 +1,4 @@
-<?php namespace Citco\Postcode;
+<?php namespace Citco;
 
 class Postcode {
 
