@@ -8,13 +8,15 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "braemoor/postcode": "5.*"
+        "php": ">=5.4.0"
     },
     "autoload": {
         "psr-0": {
             "Citco\\Postcode": "src/"
-        }
+        },
+        "files": [
+            "src/phppostcode.php"
+        ]
     },
     "minimum-stability": "dev"
 }

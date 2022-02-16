@@ -26,29 +26,6 @@ In your `composer.json`:
 }
 ```
 
-Add following lines to your composer.json:
-
-```json
-    "repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "braemoor/postcode",
-				"version": "5.0.0",
-				"dist": {
-					"url": "http://www.braemoor.co.uk/software/downloads/postcode.zip",
-					"type": "zip"
-				}
-			}
-		}
-	],
-	"autoload": {
-		"files": [
-			"vendor/braemoor/postcode/phppostcode.php"
-		]
-	}
-```
-
 ## Basic Usage
 
 ```php
